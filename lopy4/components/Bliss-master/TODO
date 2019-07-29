@@ -1,0 +1,13 @@
+0.  The public key polynomial 'a' should not be stored in NTT form in
+    either the public key or the signature, since that forces a
+    dependency on a particular choice of NTT.
+
+    It can be stored in ntt form in the private key. I guess when we
+    write the private key out to a file we would store "a" not in ntt
+    form.
+
+
+
+
+1. Finish the eBATS api (bliss_b.h). 
+(https://bench.cr.yp.to/ebats.html)
